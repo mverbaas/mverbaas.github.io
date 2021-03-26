@@ -21,7 +21,7 @@ CONSTRAINT CK_Value CHECK ([Value] IN ('Enabled', 'Disabled'))
 
 Result:
 
-```SQL
+```sql
 CONSTRAINT [CK_Value] CHECK  (([Value]='Disabled' OR [Value]='Enabled'))
 ```
 
@@ -53,7 +53,7 @@ Unfortunately the same thing happens. The code in the project is not reflected i
 
 Next thing I tried is just adding a constraint to a table, but removing Visual Studio and SqlPackage.exe from the equation. If you want. you can even do this yourself with Azure Data Studio, or SQL Server Management Studio.
 
-```SQL
+```sql
 DROP TABLE IF EXISTS dbo.Table1;
 GO
 
@@ -70,7 +70,7 @@ GO
 
 After executing the script, go to the table in the object explorer and script the table as create:
 
-```SQL
+```sql
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
