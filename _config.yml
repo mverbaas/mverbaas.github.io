@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Mark Verbaas"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Something nice here."
+  bio    : "My adventures in IT."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
