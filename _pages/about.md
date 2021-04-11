@@ -3,7 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
-I'm Mark Verbaas from Ridderkerk, near Rotterdam. I've been in IT since the end of 1998.
+I'm Mark Verbaas from Ridderkerk, near Rotterdam. I am married to Marloes and we're the parents of our two boys, Bryan and James. 
+
+I've been in IT since the end of 1998.
 
 My first function was in a remote monitoring. Monitoring the Wide Area Networks of several multi-nationals. During this the basics of networking where part of the day. This was the time that home broadband was starting in the Netherlands, and only a few had routers in their homes. WiFi wasn't even a thing!
 
