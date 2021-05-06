@@ -15,5 +15,3 @@ Mark is an honest, cooperative, and hard-working professional on which I always 
 Kind regards,
 
 [Alex](https://www.linkedin.com/in/alexandrvolok/)
-
-## Test
