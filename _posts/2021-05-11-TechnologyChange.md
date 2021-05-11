@@ -10,7 +10,7 @@ tags:
 
 This is my first contribution to T-SQL Tuesday. It is about how I manage technology changes. As this is the question from this months host, [Andy Leonard](https://andyleonard.blog/2021/05/t-sql-tuesday-138-managing-technology-changes/). Thank you for hosting this edition of the T-SQL Tuesday, Andy ([T](https://twitter.com/AndyLeonard))!
 
-[![T-SQL Tuesday Logo](../assets/images/T-SQL-Tuesday-Logo.jpg)](https://andyleonard.blog/2021/05/t-sql-tuesday-138-managing-technology-changes/)
+[![T-SQL Tuesday Logo](/assets/images/T-SQL-Tuesday-Logo.jpg)](https://andyleonard.blog/2021/05/t-sql-tuesday-138-managing-technology-changes/)
 
 I think my way of responding to change is greatly influenced by one of my former employers. It was not a question if we should go to newer versions of the, mostly Microsoft, products we then used. Being it SQL Server, Exchange or the Windows operating system on either the server park, or the client. It was more of a question how fast can we go there? After an employer change, I was kind of shocked getting a laptop with Windows 7 and the OCS client on it, being "spoiled" with mostly the latest versions available.
 
