@@ -8,7 +8,7 @@ tags:
   - T-SQL Tuesday
 ---
 
-This is my first contribution to T-SQL Tuesday. It is about how I manage technology changes. As this is the question from this months host, [Andy Leonard](https://andyleonard.blog/2021/05/t-sql-tuesday-138-managing-technology-changes/).
+This is my first contribution to T-SQL Tuesday. It is about how I manage technology changes. As this is the question from this months host, [Andy Leonard](https://andyleonard.blog/2021/05/t-sql-tuesday-138-managing-technology-changes/). Thank you for hosting this edition of the T-SQL Tuesday, Andy ([T](https://twitter.com/AndyLeonard))!
 
 [![T-SQL Tuesday Logo](http://tsqltuesday.com/wp-content/uploads/2018/07/T-SQL-Tuesday-Logo.jpg)](https://andyleonard.blog/2021/05/t-sql-tuesday-138-managing-technology-changes/)
 
