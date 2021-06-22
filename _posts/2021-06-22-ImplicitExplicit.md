@@ -79,7 +79,7 @@ Now redo the insert, but adding the explicit start and commit to the transacatio
 BEGIN TRAN
     DECLARE @Counter INT = 1
 
-    WHILE @Counter < 100000
+    WHILE @Counter <= 100000
     BEGIN
             INSERT T (C1)
             VALUES (@Counter)
