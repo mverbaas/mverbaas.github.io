@@ -21,7 +21,7 @@ It is rather easy to show the difference it makes. Let's create an empty databas
 
 ### Implicit transaction
 
-I explicitely set a nice size for the data and the log files, so they don't have to autogrow during the testing. Be aware that I'm running my tests on a docker container running Ubbuntu, you're file paths might differ!
+I explicitely set a nice size for the data and the log files, so they don't have to autogrow during the testing. Be aware that I'm running my tests on a Docker container running Ubuntu, some settings might differ!
 
 ```SQL
 CREATE DATABASE [ExpImp]
