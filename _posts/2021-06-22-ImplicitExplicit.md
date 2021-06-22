@@ -13,9 +13,9 @@ Recently I was reminded about a query tuning technique that I have learned some 
 
 ## TL/DR
 
-By explicity starting transactions for your INSERT statements might improve the time it take to complete them.
+By explicity starting transactions for INSERT statements, it might improve the time it take to complete them.
 
-## Seet by yourself
+## See by yourself
 
 It is rather easy to show the difference it makes. Let's create an empty database and table with a single column, as always do this on a test/personal system and don't play around on production servers!
 
