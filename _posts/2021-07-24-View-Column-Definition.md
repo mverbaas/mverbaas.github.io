@@ -9,11 +9,11 @@ tags:
   - T-SQL
 ---
 
-This week is was discussing a pull request from my co-worker Arthur ([T](https://twitter.com/GuruArthur)), and I was nitpicking on something that probably has to with personal preference of writing T-SQL code. His quick response to me was:
+This week I was discussing a pull request from my co-worker Arthur ([T](https://twitter.com/GuruArthur)), and I was nitpicking on something that probably has to with personal preference of writing T-SQL code. His quick response to me was:
 
 > While we're nitpicking on eachother, why don't you use column definitions in your views?
 
-I was surprised by this and my honest reactions to his remark was that I didn't know that it could be done. I've never seen any T-SQL View definition that did this. So first stop was the official [Microsoft documentation](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql?view=sql-server-ver15).
+I was surprised by this and my honest reactions to his remark was that I didn't knew that it could be done. I've never seen any T-SQL View definition that did this. So first stop was the official [Microsoft documentation](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql?view=sql-server-ver15).
 
 ```SQL
 -- Syntax for SQL Server and Azure SQL Database  
@@ -37,7 +37,7 @@ And there it is, on the first line _[ (column [ ,...n ] ) ]_. Reading further in
 >Is the name to be used for a column in a view. A column name is required only when a column is derived from an arithmetic expression, a function, or a constant; when two or more columns may otherwise have the same name, typically because of a join; or when a column in a view is specified a name different from that of the column from which it is derived. Column names can also be assigned in the SELECT statement.
 > If column is not specified, the view columns acquire the same names as the columns in the SELECT statement.
 
-I think I've never looked this well at the create view documentation, and always the syntax as in the first example:
+I think I've never looked this well at the create view documentation, and always use the syntax as in the first example:
 
 ```SQL
 CREATE VIEW hiredate_view  
@@ -72,7 +72,7 @@ WHERE database_id < 5;
 GO
 ```
 
-In this particular small examples the results are equal, besides the column names, because in dbo.test2 view I purposely changed the names of the columns. This same result can be achieved with column aliases.
+In this particular small examples the results are equal, besides the column names, because in dbo.test2 view I purposely changed the names of the columns. This same result can be achieved with column aliases as seen in in test3 definition below.
 
 ```SQL
 CREATE OR ALTER VIEW [dbo].[test3] 
@@ -98,7 +98,7 @@ WHERE database_id < 5;
 GO
 ```
 
-In this latest working example you can observe that the column definition takes precedense over the column alias.
+In this latest working example you can observe that the column definition takes precedense over the column aliases.
 
 The next examples both return errors. In dbo.test5 I've removed the column definition from the statement. The create view now fails on a mismatch on columns ('test5' has more columns than specified in the column list.). The other way around it return a similar error ('test6' has fewer columns than specified in the column list.)
 
