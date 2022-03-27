@@ -1,12 +1,13 @@
 ---
 title: "Azure DevOps Pull Request Suggestions"
-date: 2022-03-26T16:28
+date: 2022-03-26T13:17:30-04:00
 categories:
   - Blog
 tags:
   - Azure DevOps
   - Pull Requests
 ---
+
 This week I finally found out how to do suggestions in Azure DevOps Repos Pull Requests. After using Azure DevOps for the last year and only now founding out this feature made me think this is not wide spread known. That is why I wrote this blog post, maybe someone elsee can benefit from it.
 
 ## What are sugggestions in PRs
