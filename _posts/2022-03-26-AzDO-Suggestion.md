@@ -8,7 +8,7 @@ tags:
   - Pull Requests
 ---
 
-This week I finally found out how to do suggestions in Azure DevOps Repos Pull Requests. After using Azure DevOps for the last year and only now founding out this feature made me think this is not wide spread known. That is why I wrote this blog post, maybe someone elsee can benefit from it.
+This week I finally found out how to do suggestions in Azure DevOps Repos Pull Requests. After using Azure DevOps for the last year and only now founding out this feature made me think this is not wide spread known. That is why I wrote this blog post, maybe someone else can benefit from it.
 
 ## What are sugggestions in PRs
 
@@ -22,6 +22,6 @@ Same functionality is available in the GitHub Pull Requests, and as a reference 
 
 ## Conclusion
 
-Using suggestions during Pull Requests can help speed up the delivery, but also maintain the quality of the code. It als helps collaboration between contributors.
+Using suggestions during Pull Requests can help speed up the delivery, but also maintain the quality of the code. It also helps collaboration between contributors.
 
 That's it for this small post, but I hope it helps someone out there.
