@@ -15,3 +15,11 @@ Mark is an honest, cooperative, and hard-working professional on which I always 
 Kind regards,
 
 [Alex](https://www.linkedin.com/in/alexandrvolok/)
+
+## Emmanuel Defranc
+
+Mark is one of those people that everybody loves to work with. His level of engagement and will, to always provide support when needed, makes me confident to say that Mark is the whole deal; on one hand you have this sly developer that delivers valuable products on the other hand you have a person that his communication skills, allows anybody to have a productive and meaningful dialogue. For me, it has been pretty handy to have him around when I get stuck on the day by day tasks I have to deal with.
+
+Wishing you the best on every decision made in your life path.
+
+--Manu
