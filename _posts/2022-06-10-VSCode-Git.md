@@ -25,7 +25,7 @@ This isn't a huge problem, as VSCode and the [Gitlens](https://marketplace.visua
 
 But prevention is better then resolving. This option will provide you with an dialogue box that allows you to first create the branch and than continue. There is of course the option to ignore and commit anyway.
 
-![dialogue showing branch protection](../assets/images/2022-06-11-branch-protection.jpg "branch protection")
+![dialogue showing branch protection](/assets/images/2022-06-11-branch-protection.jpg "branch protection")
 
 ## Git: Branch Prefix
 
@@ -39,7 +39,7 @@ These branch names are also used in the Azure DevOps pipelines, branches that st
 
 This feature saves me from forgetting and/or mistyping the branch name and in the worst case questioning myself why my push hasn't started the pipeline.
 
-![creating branch with prefix](../assets/images/branch-prefix.jpg)
+![creating branch with prefix](/assets/images/branch-prefix.jpg)
 
 ## Git: Branch name generation
 
