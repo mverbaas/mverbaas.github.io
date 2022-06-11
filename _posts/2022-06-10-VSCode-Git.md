@@ -19,7 +19,7 @@ Recently Microsoft has released Visual Studio Code 1.68, and somethings in the [
 
 With this option you can protect yourself from commiting to your main/master (or any other) branch.
 
-In most team setups the main/master branch are only to be update to a pull request, so that a code review is implicit. But how many times has it happened that you've opened your code to make a small code changes, commit, push and go grab a coffee as you've automatically triggered a pipeline to deploy the code change. When returning with a fresh hot coffee, there is an error waiting for you and you realize that forgot to create a branch. I have to admit that it happens to me on average one time a month.
+In most team setups the main/master branch are only to be updated through a pull request, so that a code review is implicit. But how many times has it happened that you've opened your code to make a small change, commit, push and go grab a coffee as you've automatically triggered a pipeline to deploy the code change. When returning with a fresh, hot coffee, there is an error waiting for you and you realize that forgot to create a branch. I have to admit that it happens to me on average one time a month.
 
 This isn't a huge problem, as VSCode and the [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extension make it easy for you to undo the commit. Doing this on the command line is a bit more daunting with the "git reset" command.
 
