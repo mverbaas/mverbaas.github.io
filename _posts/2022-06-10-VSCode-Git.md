@@ -39,7 +39,7 @@ These branch names are also used in the Azure DevOps pipelines, branches that st
 
 This feature saves me from forgetting and/or mistyping the branch name and in the worst case questioning myself why my push hasn't started the pipeline.
 
-![creating branch with prefix](../assets/images/2022-06-11-branch-prefix.jpg)
+![creating branch with prefix](../assets/images/branch-prefix.jpg)
 
 ## Git: Branch name generation
 
