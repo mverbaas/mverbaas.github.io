@@ -53,4 +53,4 @@ Drawback is maybe a bit too strong of a word for it, but the improvements only w
 
 ## Conclusion
 
-Three very nice additions to the already great tool that VSCode is. These are just some highlights from the complete [release notes](https://code.visualstudio.com/updates/v1_68), be sure the read the rest of them. There is also a release party schedule, which you can follow here on [youtube](https://youtu.be/t01EtPOKd_4).
+Three very nice additions to the already great tool that VSCode is. These are just some highlights from the complete [release notes](https://code.visualstudio.com/updates/v1_68), be sure the read the rest of them. There is also a release party scheduled, which you can follow here on [youtube](https://youtu.be/t01EtPOKd_4).
