@@ -23,7 +23,7 @@ According to the [documentation](https://docs.microsoft.com/en-us/powershell/mod
 
 Most people might also know it, because it is integrated in your favorite editor when you install the PowerShell extension.
 
-Known rules are: 
+Known rules are:
 
 - PSAvoidUsingCmdletAliases\
   Warns about the usage of aliases in your script.
