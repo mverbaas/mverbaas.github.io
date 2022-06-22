@@ -23,7 +23,7 @@ According to the [documentation](https://docs.microsoft.com/en-us/powershell/mod
 
 Most people might also know it, because it is integrated in your favorite editor when you install the PowerShell extension.
 
-Known rules are: 
+Known rules are:
 
 - PSAvoidUsingCmdletAliases\
   Warns about the usage of aliases in your script.
@@ -39,7 +39,7 @@ Get-ScriptAnalyzerRule
 The cool thing with the ScriptAnalyzer module is that you can integrate it in your Azure DevOps pipeline through a pester script. The combination of the both will give you a nice repetative checking of your files in source control.\
 The following image shows the result in my playground. You can also see on the top that the number of "tests" are quickly rising (in this case over 5300). This is because every rules is applied to every file. So a new file will add over 60 tests to your pipeline.
 
-![PSSA Pipeline](../assets/images/2022-06-16-PSSA-Pipeline.jpg)
+![PSSA Pipeline](/assets/images/2022-06-16-PSSA-Pipeline.jpg)
 
 ## Custom configuration
 
