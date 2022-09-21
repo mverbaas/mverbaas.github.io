@@ -120,7 +120,7 @@ task updateModuleManifest {
 
 As you can see in the code snippet, the first part goes through all the public folder and uses the AST to get the functions name and puts it in a variable. This works very nicely and will ignore any nested functions that you migth have.
 
-The second part just copies the contents of all the ps1 files into the psm1 file.
+The second part just copies the contents of all the ps1 files into the psm1 file. Putting all the files in a single psm1 file should also give some performance enhancement during the loading of your module, according to this [blog](https://evotec.xyz/powershell-single-psm1-file-versus-multi-file-modules/).
 
 After that it uses an hash table to update the module manifest.
 
