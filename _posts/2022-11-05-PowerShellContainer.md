@@ -1,6 +1,6 @@
 ---
 title: "PowerShell Module Build in Dev Container"
-date: 2022-11-05T22:17:30-04:00
+date: 2022-11-05T21:17:30-04:00
 categories:
   - Blog
 tags:
