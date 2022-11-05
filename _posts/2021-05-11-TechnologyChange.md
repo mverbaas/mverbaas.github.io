@@ -4,7 +4,7 @@ date: 2021-05-11T13:17:30-04:00
 categories:
   - Blog
 tags:
-  - t-sql
+  - T-SQL
   - T-SQL Tuesday
 ---
 

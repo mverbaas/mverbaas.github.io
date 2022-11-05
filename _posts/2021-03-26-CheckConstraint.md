@@ -4,7 +4,7 @@ date: 2021-03-22T13:17:30-04:00
 categories:
   - Blog
 tags:
-  - t-sql
+  - T-SQL
   - Microsoft
   - SQL
   - DACPAC
