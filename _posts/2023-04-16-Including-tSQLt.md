@@ -1,5 +1,5 @@
 ---
-title: "Three is a charm"
+title: "Including tSQLt framework"
 date: 2023-04-16T13:15:30-04:00
 categories:
   - Blog
