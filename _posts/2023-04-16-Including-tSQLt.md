@@ -11,11 +11,11 @@ tags:
 
 In this post I want to go over a small improvement which I learned recently. This includes creating a reference to a dacpac instead of including all the code to build that dacpac.
 
-TL/DR; You can reference a dacpac in you database development, excluding a whole lot of repetative code in you source control system(s).
+TL/DR; You can reference a dacpac in you database development, excluding a whole lot of repetative code in your source control system(s).
 
 ## History
 
-I've made it a best practice to include testing for all the objects I created, and for database projects my preference went to [tSQLt][tsqlt]. So for the small number of projects that I was a part of, it always included a copy of all the objects of the tSQLt framework.
+I've made it a best practice to include testing for all the objects I create, and for database projects my preference goes to [tSQLt][tsqlt]. So for the small number of projects that I was a part of, it always included a copy of all the objects of the tSQLt framework.
 
 ### The old way
 
