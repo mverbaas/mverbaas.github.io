@@ -14,12 +14,12 @@ This is just a short post to document some knownledge that I gained this week, a
 
 I was deploying Azure resources using a main bicep file that calls modules, as shown below.
 
-:::mermaid
+```mermaid
 graph LR
 
 main --> resource1
 main --> resource2
-:::
+```
 
 In my case the main file is just an entry point to the actual resources, and where I can stitch the resources together.
 
