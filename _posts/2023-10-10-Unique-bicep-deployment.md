@@ -10,7 +10,7 @@ tags:
   - Infrastructure
   - Azure DevOps
 ---
-This is just a short post to document some knownledge that I gained this week, and I don't want to loose. Maybe someone else on the big bad Internet will also find it useful.
+This is just a short post to document some knowledge that I gained this week, and I don't want to loose. Maybe someone else on the big bad Internet will also find it useful.
 
 I was deploying Azure resources using a main bicep file that calls modules, as shown below.
 
@@ -39,7 +39,7 @@ module stgModule '../storageAccount.bicep' = {
 
 What I notice when doing this, is that the deployment in Azure was nicely showing a separate deployment for every main file, but every separate deployment of the storage account is named storageDeploy and overwrites an earlier deployment. This is not so convenient.
 
-To overcome this you'd just have to read the Microsoft article better. As almost always, Microsoft has documented all the posibilities, but actually taking the time to read all of it is the trick.
+To overcome this you'd just have to read the [Microsoft article][bicepModule] better. As almost always, Microsoft has documented all the posibilities, but actually taking the time to read all of it is the trick.
 
 Prefixing the name of the deployment with the following string makes the deployments unique again and traceable:
 
