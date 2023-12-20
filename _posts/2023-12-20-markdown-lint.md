@@ -9,15 +9,15 @@ tags:
   - Azure DevOps
   - linting
 ---
-Recently I was reviewing a pull request from a co-worker and I noticed that the markdown documents included were _violating_ the markdown rules. Me, being a fan of rules and static analysis tools, quickly modified some of them using [PR Suggestions](./2022-03-26-AzDO-Suggestion.md).
+Recently I was reviewing a pull request from a co-worker and I noticed that the markdown documents included were _violating_ the markdown rules. Me, being a fan of rules and static analysis tools, quickly modified some of them using [PR Suggestions][suggestions].
 
 > To be honest I don't know if these rules are actual rules, or more conventions a team can agree upon. But implementing these rules at least can bring consistency in a teams markdown code.
 
-The second thougt that popped in my head, is how can I prevent this from happening again?
+The second thought that popped in my head, is how can I prevent this from happening again?
 
 ## VS Code Extension
 
-One of the methods I already use for myself when writing markdown documents is using a VS Code Extension, and I have great experience with [this one][vsCodeExt]. It surfaces the violations of the rules as problems, just as it would with _norma_ code.
+One of the methods I already use for myself when writing markdown documents is using a VS Code Extension, and I have great experience with [this one][vsCodeExt]. It surfaces the violations of the rules as problems, just as it would with _normal_ code.
 
 Moving it from being a personal task to make sure all markdown code is following the rules, I already have VS Code [recommend the extension][workspaceRecommendations]. This would make the suggestion to all other users to install the extension when using our shared repository.
 
@@ -51,7 +51,7 @@ Another thought that I have is to setup a pre-commit action, this would have the
 
 ## Conclusion
 
-I happy that this code review send me down this rabbit hole and that I found the exit of the rabbit hole with solutions in areas that I like. As described in the next steps, there is still some investitgation to do.
+I'm happy that this code review send me down this rabbit hole and that I found the exit of the rabbit hole with solutions in areas that I like. As described in the next steps, there is still some investitgation to do.
 
 Hope this little post helps other with the same desire for consistent coding.
 
@@ -60,3 +60,4 @@ Hope this little post helps other with the same desire for consistent coding.
 [site]: https://microsoft.github.io/code-with-engineering-playbook/
 [codeEngineering]: https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/markdown-linting/
 [md029]: https://github.com/DavidAnson/markdownlint/blob/main/doc/md029.md
+[suggestions]: https://mverbaas.github.io/blog/AzDO-Suggestion/
