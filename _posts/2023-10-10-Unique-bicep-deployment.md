@@ -25,7 +25,6 @@ To deploy the main Bicep file use the [Azure Resource Manager Template Deploymen
 
 Going with the example from the [module site][bicepModule], this would be the contents of the main.bicep file. It calls a module file name storageAccount.bicep.
 
-
 ```bicep
 module stgModule '../storageAccount.bicep' = {
   name: 'storageDeploy'
