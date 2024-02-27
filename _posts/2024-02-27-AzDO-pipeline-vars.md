@@ -12,7 +12,7 @@ tags:
 This post is about using pipeline variables by using a yml file, knows as a variable template.  
 This is a third method of using variables besides inline or variable groups.
 
-![image of a pipeline](/assets/images/_f9f4e05c-e2cf-489e-995d-cf8abecb17a8.jpeg)
+![image of a pipeline](/assets/images/2024-02-27-pipeline.jpeg)
 
 ## Benefits
 
