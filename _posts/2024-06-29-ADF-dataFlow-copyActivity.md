@@ -25,7 +25,7 @@ Before the changes were made there was an overly complex (set of) pipeline(s). T
 In this part of the process the pipeline loops over the source files and using a switch component passed onto a specific data flow with a very simple transformation (adding some columns and group by).  
 Data Flows are great, but they come with a cost (actual costs). The low amount of transformations didn't justify these higher costs.
 
-:::mermaid
+```mermaid
 graph LR
 
 subgraph foreach
@@ -41,7 +41,7 @@ subgraph pl
 end
 
 s{{start}} --> foreach --> e{{end}}
-:::
+```
 
 In the above process flow, for the three input files a sub-pipeline would be invoked and based on the input parameters a data flow was invoked from there.
 
