@@ -1,6 +1,6 @@
 ---
 title: "Azure Data Factory data flow to copy activity"
-date: 2024-02-27T13:15:30-04:00
+date: 2024-06-29T13:15:30-04:00
 categories:
   - Blog
 tags:
