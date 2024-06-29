@@ -25,23 +25,7 @@ Before the changes were made there was an overly complex (set of) pipeline(s). T
 In this part of the process the pipeline loops over the source files and using a switch component passed onto a specific data flow with a very simple transformation (adding some columns and group by).  
 Data Flows are great, but they come with a cost (actual costs). The low amount of transformations didn't justify these higher costs.
 
-```mermaid
-graph LR
-
-subgraph foreach
-    direction LR
-    file1 --> pl
-    file2 --> pl
-    file3 --> pl
-end
-
-subgraph pl
-    direction LR
-    file --switch--> df
-end
-
-s{{start}} --> foreach --> e{{end}}
-```
+![alt text](/assets/images/2024-06-29-img1.png)
 
 In the above process flow, for the three input files a sub-pipeline would be invoked and based on the input parameters a data flow was invoked from there.
 
@@ -49,18 +33,7 @@ In the above process flow, for the three input files a sub-pipeline would be inv
 
 By removing the switch in the existing situation we could also eliminate a pipeline call. And we could remove a lot of specific code. Foreach file an data flow and data set were created, this added to the reduced complexity.
 
-:::mermaid
-graph LR
-
-subgraph foreach
-    direction LR
-    file1 --> ca[copy activity]
-    file2 --> ca[copy activity]
-    file3 --> ca[copy activity]
-end
-
-s{{start}} --> foreach --> e{{end}}
-:::
+![alt text](/assets/images/2024-06-29-img2.png)
 
 With this changed pipeline, the costs of our ADF were reduced with ~30%!
 
