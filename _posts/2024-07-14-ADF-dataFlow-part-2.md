@@ -1,6 +1,6 @@
 ---
 title: "Azure Data Factory column mapping"
-date: 2024-07-14T10:15:30-04:00
+date: 2024-07-14T10:15:30+01:00
 categories:
   - Blog
 tags:
