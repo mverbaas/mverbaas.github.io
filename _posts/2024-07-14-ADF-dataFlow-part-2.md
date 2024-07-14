@@ -13,7 +13,7 @@ tags:
 
 This is a follow up to my earlier [post][part1]. It goes into the mapping issue that I encountered when using a newly created linked service.
 
-As the performance increase using the new linked service (that uses the managed private endpoint) is really required, I decided to focus on resolving the mapping issue. The method I want to use is based on meta-driven pipelines, explained [here] by [André Kamman][andre].
+As the performance increase using the new linked service (that uses the managed private endpoint) is really required, I decided to focus on resolving the mapping issue. The method I want to use is based on meta-driven pipelines, explained [here][data-exposed] by [André Kamman][andre].
 
 To use this method, I need to have the mapping in a (in my case) SQL server table and retrieve that during pipeline execution with a stored procedure
 
