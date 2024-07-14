@@ -1,5 +1,5 @@
 ---
-title: "Azure Data Factory data flow to copy activity (part 2)"
+title: "Azure Data Factory column mapping"
 date: 2024-07-14T10:15:30-04:00
 categories:
   - Blog
